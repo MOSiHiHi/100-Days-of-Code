@@ -14,7 +14,7 @@ secong_digit = two_digit_number[1]
 result = int(firt_digit) + int(secong_digit)
 print(result)
 
-# My code after I watched the author's code
+# My code after I watched the author's code.
 
 two_digit_number = input("Type a two digit number: ")
 two_digit_sum = int(two_digit_number[0]) + int(two_digit_number[1])
