@@ -1,4 +1,4 @@
-# # My code
+# My code
 
 print("Welcome to the tip calculator.")
 totalBill = int(input("how much was the total bill? "))
