@@ -2,9 +2,9 @@
 
 print("Welcome to the tip calculator.")
 totalBill = int(input("how much was the total bill? "))
-tip = round(int(input("What percentage tip would you like to give? "))/100)
+tip = round(float(input("What percentage tip would you like to give? "))/100, 2)
 people = int(input("How many people to split the bill? "))
-payforperson = round((totalBill/people) * (1.00 + tip), 2)
+payforperson = round((totalBill + (tip * totalBill))/people, 2)
 print(payforperson)
 
 # The author' code
@@ -25,9 +25,9 @@ print(f"Each person should pay {bill_per_person}$")
 
 print("Welcome to the tip calculator.")
 bill = int(input("how much was the total bill? "))
-tip = round(int(input("What percentage tip would you like to give? "))/100)
+tip = round(float(input("What percentage tip would you like to give? "))/100, 2)
 people = int(input("How many people to split the bill? "))
-payforperson = round((bill/people) * (1.00 + tip), 2)
+payforperson = round((bill + (tip * bill))/people, 2)
 payforperson = "{:.2f}".format(payforperson)
 print(payforperson)
 
