@@ -1,12 +1,12 @@
-# The code I wrote for day 1 challeng:
+# The code I wrote for the day 1 challenge:
 
 print("Hi bro, I'm gonna generate you band names.")
-city = input("What's you city name?!\n")
-pet = input("What's you pet name?!\n")
+city = input("What's your city name?!\n")
+pet = input("What's your pet name?!\n")
 band_name = city + " " + pet
 print("Your band name is " + band_name)
 
-# The code writen by the author:
+# The code written by the author:
 
 print("Welcome to the band name generator.")
 city = input("Which city did you grow up in?\n")
