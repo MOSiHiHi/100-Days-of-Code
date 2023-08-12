@@ -1,4 +1,4 @@
-# The code written by me.
+# The code written by me:
 
 weight = input("Type your weight in kg: ")
 height = input("Type your height in m: ")
@@ -8,7 +8,7 @@ bmi = weight/height**2
 bmi = int(bmi)
 print(bmi)
 
-# The code written by author.
+# The code written by the author:
 
 weight = input("Type your weight in kg: ")
 height = input("Type your height in m: ")
