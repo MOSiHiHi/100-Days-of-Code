@@ -16,7 +16,7 @@ bmi = int(weight)/float(height)**2
 bmi_as_int = int(bmi)
 print(bmi_as_int)
 
-# My code after I watched the author's code.
+# My code after I watched the author's code:
 
 weight = input("Type your weight in kg: ")
 height = input("Type your height in m: ")
